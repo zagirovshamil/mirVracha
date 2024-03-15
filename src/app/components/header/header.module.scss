@@ -1,0 +1,20 @@
+@import '../../styles/mixins.scss';
+
+.header {
+  width: 100vw;
+  background-image: url(../../accets/img/Header__img.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  background-size: 1335px;
+
+  &__logo {
+    height: 50px;
+    margin: 30px 60px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 49.04px;
+    color: rgba(1, 69, 122, 1);
+  }
+}

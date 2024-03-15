@@ -1,0 +1,29 @@
+@import '/src/app/styles/common.scss';
+
+.container {
+  margin-top: 60px;
+  height: 400px;
+  display: flex;
+  @include media-xl {
+    height: 250px;
+  }
+
+  &__main {
+    width: 630px;
+    height: 300px;
+    display: flex;
+    background: linear-gradient(90deg, #fbfdff 0%, #d8efff 100.86%);
+    border-radius: 20px;
+  }
+
+  &__card {
+    padding-top: 25px;
+    font-family: Noto Sans sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #01457a;
+  }
+}

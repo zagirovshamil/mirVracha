@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 608px;
+  width: 410px;
+  border-radius: 20px;
+
+  background: linear-gradient(90deg, #fbfdff 0%, #d8efff 100.86%);
+  font-family: Noto Sans sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 38px;
+  color: #01457a;
+  margin-top: 30px;
+
+  &__title {
+    text-align: center;
+    font-weight: 500;
+    padding: 20px;
+    width: 100%;
+  }
+
+  &__text {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  & img {
+    margin-top: 30px;
+  }
+}

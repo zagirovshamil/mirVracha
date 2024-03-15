@@ -1,0 +1,74 @@
+@import '/src/app/styles/common.scss';
+
+.container {
+  background-image: url(../../accets/img/Header__img.svg);
+  background-repeat: no-repeat;
+  margin: 100px 60px 0 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-size: 1335px;
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+
+  &__header {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 49.04px;
+    color: rgba(1, 69, 122, 1);
+    margin-top: 18px;
+  }
+
+  &__main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 96%;
+    height: 83px;
+    margin-top: 83px;
+    background: linear-gradient(90deg, #fdd966 0%, #bcd77e 68.54%);
+    color: #01457a;
+    font-family: Noto Sans sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 20px;
+  }
+
+  &__text {
+    margin-top: 40px;
+    width: 100%;
+    color: #01457a;
+    font-family: Noto Sans sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__mainCard {
+    margin-right: 100px;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    @include media-xl {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &__textCard {
+    display: flex;
+    justify-content: space-around;
+    @include media-xl {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+    }
+  }
+}

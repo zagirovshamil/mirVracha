@@ -1,0 +1,41 @@
+@import '/src/app/styles/mixins.scss';
+
+.card__container {
+  text-decoration: none;
+}
+
+.layout {
+  width: 90%;
+  height: 200px;
+  border: 1px solid rgba(1, 69, 122, 1);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 40px 0 0 60px;
+  padding: 40px;
+  overflow: hidden;
+  @include media-m {
+    width: 80%;
+    margin-right: 10px;
+  }
+
+  &__text {
+    color: #01457a;
+    background-image: linear-gradient(to bottom, #01457a, #01457a46);
+    background-clip: text;
+    color: transparent;
+    height: 100px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__image {
+    @include media-m {
+      display: none;
+    }
+  }
+}
