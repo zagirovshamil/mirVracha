@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Всех приветствую
 
-## Getting Started
+## Тестовое задание
 
-First, run the development server:
+###Инструкции для запуска и краткое описание проекта описано ниже.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Клонирование
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Чтобы начать работу над моим проектом, выполните следующие простые шаги:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Клонирование репозитория:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+`git clone https://github.com/zagirovshamil/testWork.git`
 
-## Learn More
+2. **Установите все зависимости:**
 
-To learn more about Next.js, take a look at the following resources:
+`npm install`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**3. Установите сервер разработки:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+`npm run dev`
 
-## Deploy on Vercel
+# Обзор проекта
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Мой проект представляет собой простое веб-приложение, созданное с использованием Next.js, популярной библиотеки React для серверного рендеринга и статической генерации сайтов. Приложение включает в себя несколько страниц и компонентов и использует различные сторонние библиотеки и API для предоставления дополнительных функций.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Вот некоторые ключевые особенности моего проекта:
+**Динамический роутинг:** Приложение использует динамический роутинг для генерации страниц на основе входных данных пользователя и данных.
+**Адаптивный дизайн:** Приложение разработано с использованием адаптивного дизайна и адаптируется под различные размеры экранов и устройств.
+
+# Контакты
+
+Если у вас есть вопросы или предложения по поводу моего проекта, не стесняйтесь связаться со мной по электронной почте `zagirovshamill@gmail.com`
